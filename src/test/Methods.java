@@ -13,6 +13,18 @@ public class Methods {
 		return firstTwo.replaceAll("A", "") + rest;
 		
 	}
+	
+	public boolean areFirstAndLastTwoCharactersTheSame(String str){	
+		if(str.length() <= 1)
+			return false;
+		if(str.length() == 2)
+			return true;
+		
+		String firstTwo = str.substring(0, 2);
+		String lastTwo = str.substring(str.length()-2);
+		return firstTwo.equals(lastTwo);
+	}
+	
 /*
 	public static void main(String args[]){
 
