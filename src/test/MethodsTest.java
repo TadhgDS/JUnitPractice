@@ -37,4 +37,11 @@ public class MethodsTest {
 	public void Test2areFirstAndLastTwoCharactersTheSame(){
 		assertTrue(aMethod.areFirstAndLastTwoCharactersTheSame("HOLYMOHO"));
 	}
+	
+
 }
+
+
+
+
+
